@@ -19,9 +19,9 @@ public class PostDelete2 {
 
        JSONObject js = new JSONObject();
 
-       js.put("id","3.5");
-        js.put("title","lucky-server3.5");
-        js.put("author","anicode3.5");
+       js.put("id","2.5");
+        js.put("title","lucky-server2.5");
+        js.put("author","anicode2.5");
 
         req.body(js.toJSONString());
 
